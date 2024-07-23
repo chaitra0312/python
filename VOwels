@@ -1,0 +1,6 @@
+ch=input()
+v=['a','e','i','o','u','A','E','I','O','U']
+if ch in v:
+	print("vowel")
+else:
+	print("consonents")
