@@ -1,0 +1,4 @@
+d=int(input('enter the value of d'))
+t=int(input('enter the value of t'))
+s=d/t
+print("speed",s)
