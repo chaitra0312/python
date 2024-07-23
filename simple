@@ -1,0 +1,4 @@
+p=int(input('enter the value of p'))
+t=int(input('enter the value of t'))
+r=int(input('enter the value of r'))
+print("simple intrst",p*t*r/100)
