@@ -1,0 +1,12 @@
+l=[]
+even=[]
+odd=[]
+n=int(input('enter the number'))
+for i in range(n):
+	ele=int(input('enter the elements'))
+	l.append(ele)
+print(l)
+pos=l.index(min(l))
+print(pos)
+pos2=l.index(max(l))
+print(pos2)
