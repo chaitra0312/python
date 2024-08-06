@@ -3,3 +3,15 @@ b=sum(a)
 print(b)
 avg=b/len(a)
 print(avg)
+
+//input 
+l=[]
+n=int(input('enter the number'))
+for i in range(n):
+	ele=int(input('enter the elements'))
+	l.append(ele)
+print(l)
+a=sum(l)
+print(a)
+avg=a/len(l)
+print(avg)
