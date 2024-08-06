@@ -1,0 +1,8 @@
+l=[]
+n=int(input('enter the number'))
+for i in range(n):
+	ele=int(input('enter the elements'))
+	l.append(ele)
+print(l)
+l.remove(4)
+print(l)
