@@ -1,0 +1,15 @@
+l=[]
+n=int(input('enter the number'))
+for i in range(n):
+	ele=int(input('enter the elements'))
+	l.append(ele)
+print(l[: : -1])
+
+//reverse
+l=[]
+n=int(input('enter the number'))
+for i in range(n):
+	ele=int(input('enter the elements'))
+	l.append(ele)
+l.reverse()
+print(l)
