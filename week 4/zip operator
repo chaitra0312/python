@@ -1,0 +1,6 @@
+l1=["M","na","i","Abhi"]
+l2=["y","me","s","Ram"]
+result=[]
+for a,b in zip(l1,l2):
+	result.append(a+b)
+print(result)
