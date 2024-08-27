@@ -1,0 +1,5 @@
+def myfun(num):
+	print('largest:',max(num))
+	print('smallest:',min(num))
+num=[1,2,3,4,5,6,7,87]
+myfun(num)
