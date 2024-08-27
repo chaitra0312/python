@@ -1,0 +1,4 @@
+def myfun(num):
+	return sorted(num)[-2]
+num=[2,4,6,7,8,9,3,10,23]
+print(myfun(num))
