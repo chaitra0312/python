@@ -1,0 +1,11 @@
+def myfun(x,y):
+	add=x+y
+	sub=x-y
+	mul=x*y
+	div=x/y
+	return add,sub,mul,div
+a,b,c,d=myfun(23,45)
+print(f"add: {a}")
+print(f"sub: {b}")
+print(f"mul: {c}")
+print(f"div: {d}")
