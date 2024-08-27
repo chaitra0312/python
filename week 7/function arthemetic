@@ -1,0 +1,6 @@
+def myfun(a,b):
+	print(a+b)
+	print(a-b)
+	print(a*b)
+	print(a/b)
+myfun(12,34)
