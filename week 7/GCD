@@ -1,0 +1,11 @@
+def gcd(a,b):
+	while b!=0:
+		remainder=a%b
+		a=b
+		b=remainder
+	return a
+def main():
+	num1=int(input("Enter the number"))
+	num2=int(input("Enter the number"))
+	result = gcd(num1,num2)
+	print(f"the GCD of number:{result}")
