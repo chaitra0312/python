@@ -1,0 +1,4 @@
+dic={'a':10,'b':20}
+print(dic)
+dic.setdefault('c',30)
+print(dic)
