@@ -1,0 +1,11 @@
+def checkkey(dic,key):
+	if key in dic.keys():
+		print("present, ",end=" ")
+		print("value= "dic[key])
+	else:
+		print("not present")
+dic= {'a':100,'b':200,'c':300}
+key='b'
+checkkey(dic,key)
+key='w'
+checkkey(dic,key)
