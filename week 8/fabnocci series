@@ -1,0 +1,11 @@
+def fab(n):
+	if n<=1:
+		return n
+	else:
+		return(fab(n-1)+fab(n-2))
+a=int(input("enter the number"))
+if(a<=0):
+	print("positve number")
+else:
+	for i in range(a):
+		print(fab(i))
