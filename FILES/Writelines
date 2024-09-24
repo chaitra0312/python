@@ -1,0 +1,10 @@
+lines = [
+"FIRST LINE\n",
+"SECOND LINE\n",
+"THIRD LINE\n"
+]
+f=open('f3.txt','w')
+(f.writelines(lines))
+f=open('f3.txt','r')
+print(f.read())
+f.close()
