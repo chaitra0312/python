@@ -1,0 +1,4 @@
+f=open('f3.txt','r')
+content=f.read(5)
+position = f.tell()
+print('current position: ',position)
