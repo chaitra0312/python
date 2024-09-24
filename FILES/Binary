@@ -1,0 +1,4 @@
+f=open('f3.bin','wb')
+f.write(b'\x00\x01\x02\x02')
+f=open('f3.bin','rb')
+print(f.read())
