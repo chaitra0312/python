@@ -1,0 +1,6 @@
+f=open('f3.txt','r')
+print('Intial position',f.tell())
+f.seek(6)
+print('position after seek',f.tell())
+print(f.read(7))
+print('position after read',f.tell())
