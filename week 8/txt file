@@ -1,0 +1,11 @@
+f=open('file.txt','w')
+f.write('hi hello this is write operator\n')
+l=['My name is\n','hemanthi\n','I am a student\n']
+f.writelines(l)
+f.close()
+f=open('file.txt','r')
+print(f.read())
+f.seek(0)
+print(f.readline())
+print(f.readlines())
+f.close()
