@@ -1,0 +1,11 @@
+import csv
+l=[
+['s.no','rollno','name'],[1,100,'chaitra'],[2,200,'nandu'],[3,300,'monkey']
+]
+with open('Table.csv','w',) as file:
+	f=csv.writer(file)
+	f.writerows(l)
+f=open('Table.csv','r')
+read=csv.reader(f)
+for row in read:
+	print(row)
