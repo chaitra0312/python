@@ -1,0 +1,10 @@
+class Student:
+	def __init__(self, rono, name):
+		self.a=rono
+		self.b=name
+		print(self.a)
+		print(self.b)
+	def __del__(self):
+		print("object destructor")
+s=Student(34,"chaitu")
+del s
