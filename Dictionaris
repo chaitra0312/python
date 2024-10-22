@@ -1,0 +1,6 @@
+my_dict={1:'a',2:'b',3:'c'}
+key=int(input("Enter the Number"))
+if key in my_dict:
+	print("exists")
+else:
+	print("Not exists")
