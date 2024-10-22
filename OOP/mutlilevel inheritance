@@ -1,0 +1,31 @@
+class parent:
+	def first(self):
+		print("parent method")
+class child(parent):
+	def second(self):
+		print("child method")
+class child1(parent):
+	def third(self):
+		print("child1 method")
+c=child()
+c1=child1()
+c.first()
+c.second()
+c1.first()
+c1.third()
+
+
+//
+class parent:
+	def first(self):
+		print("parent method")
+class child(parent):
+	def second(self):
+		print("child method")
+class child1(child):
+	def third(self):
+		print("child1 method")
+c=child1()
+c.first()
+c.second()
+c.third()
