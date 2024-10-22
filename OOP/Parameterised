@@ -1,0 +1,7 @@
+class Student:
+	def __init__(self, rno, name):
+		self.a=rno
+		self.b=name
+		print(self.a)
+		print(self.b)
+s=Student(45,"chaitu")
