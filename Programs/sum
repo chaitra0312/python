@@ -1,0 +1,3 @@
+def sum(n):
+    total=n*(n+1)//2
+    print(total) 
