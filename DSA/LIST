@@ -32,3 +32,11 @@ After adding balck panther: ['spider man', 'thor', 'hulk', 'iron man', 'captain 
 After adding Black panther at third position: ['spider man', 'thor', 'hulk', 'Black Panther', 'iron man', 'captain america']
 After replacing hulk and thor: ['spider man', 'Doctor Strange', 'Black Panther', 'iron man', 'captain america']
 The list after sorting: ['Black Panther', 'Doctor Strange', 'captain america', 'iron man', 'spider man']
+
+#oddnum
+maxnum=int(input('enter the number'))
+oddnum=[]
+for i in range(1,max):
+    if i%2 == 1:
+        oddnum.append(i)
+print('oddnum:',oddnum)
