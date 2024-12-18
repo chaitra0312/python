@@ -1,6 +1,34 @@
+#Basic of list
 exp=[2200,2350,2600,2130,2190]
 print('In feb i have spent extra dollars are :',exp[0]-exp[1])
 print('The total expenses spent in first three months',exp[0]+exp[1]+exp[2])
 print('If i have spent 2000$ in any month:', 2000 in exp)
 print('Expenses at june :', exp.append(1980))
 print('The april month wages:',exp[3]-200)
+
+#output
+In feb i have spent extra dollars are : -150
+The total expenses spent in first three months 7150
+If i have spent 2000$ in any month: False
+Expenses at june : None
+The april month wages: 1930
+
+# Methods in python through lists
+heros=['spider man','thor','hulk','iron man','captain america']
+print('Length of the list:',len(heros))
+heros.append('Black panther')
+print('After adding balck panther:',heros)
+heros.remove('Black panther')
+heros.insert(3,'Black Panther')
+print('After adding Black panther at third position:',heros)
+heros[1:3]=['Doctor Strange']
+print('After replacing hulk and thor:',heros)
+heros.sort()
+print('The list after sorting:', heros)
+
+#output
+Length of the list: 5
+After adding balck panther: ['spider man', 'thor', 'hulk', 'iron man', 'captain america', 'Black panther']
+After adding Black panther at third position: ['spider man', 'thor', 'hulk', 'Black Panther', 'iron man', 'captain america']
+After replacing hulk and thor: ['spider man', 'Doctor Strange', 'Black Panther', 'iron man', 'captain america']
+The list after sorting: ['Black Panther', 'Doctor Strange', 'captain america', 'iron man', 'spider man']
