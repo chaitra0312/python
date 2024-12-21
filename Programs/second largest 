@@ -1,0 +1,13 @@
+
+class Solution:
+    def getSecondLargest(self, arr):
+        arr=sorted(set(arr),reverse=True)
+        return arr[1] if len(arr) > 1 else -1
+if __name__ == "__main__":
+    t = int(input())
+    for _ in range(t):
+        arr = list(map(int, input().split()))
+        ob = Solution()
+        ans = ob.getSecondLargest(arr)
+        print(ans)
+        print("~")
